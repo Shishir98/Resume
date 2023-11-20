@@ -12,6 +12,7 @@ def download_resume(request):
     # Use os.path.join for creating file paths
     pdf_file_path = os.path.join('static', 'website', 'documents', 'Shishir Saxena - Resume.docx.pdf')
 
+    print(f"PATH: {os.getcwd()}")
     # Provide a custom name for the downloaded file (optional)
     custom_file_name = 'resume.pdf'
 
