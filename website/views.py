@@ -10,7 +10,7 @@ def index(request):
 def download_resume(request):
     # Check if the uploaded file is a PDF
     # Use os.path.join for creating file paths
-    pdf_file_path = os.path.join('static', 'website', 'documents', 'Shishir Saxena - Resume.docx.pdf')
+    pdf_file_path = os.path.join('Resume', 'static', 'website', 'documents', 'Shishir Saxena - Resume.docx.pdf')
 
     print(f"PATH: {os.getcwd()}")
     # Provide a custom name for the downloaded file (optional)
